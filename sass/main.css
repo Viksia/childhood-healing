@@ -27,6 +27,7 @@ body {
   width: auto;
   height: 100%;
   z-index: 100;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Колоды */
@@ -46,6 +47,7 @@ body {
   width: 250px; /* Ширина карты - можете изменить */
   height: auto; /* Высота карты будет автоматически вычисляться, чтобы сохранить пропорции */
   cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .decks #deck1 {
   border: 5px solid #eedc5e;
@@ -95,6 +97,7 @@ body {
   padding: 20px;
   text-align: center;
   border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .aside .dice-roll {
   cursor: pointer;
@@ -110,9 +113,10 @@ body {
   padding: 14px;
   text-align: center;
   border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .aside .players {
-  margin-top: 25px;
+  margin-top: 40px;
 }
 .aside .players .player {
   border-radius: 50%;
@@ -124,6 +128,7 @@ body {
   position: absolute;
   z-index: 200;
   cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .aside .players #avat1 {
   left: 80px;

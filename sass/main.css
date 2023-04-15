@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f0f2;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  border: 5px solid #cf8796;
+  margin: 0 auto;
+  top: 0;
+  left: 33%;
+  width: auto;
+  height: 100%;
+  z-index: 100;
+}
+
+/* Колоды */
+.decks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px; /* Ширина контейнера - можете изменить */
+  margin: 80px auto; /* Центрирование контейнера на странице */
+}
+.decks .deck-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 20px; /* Расстояние между колодами - можете изменить */
+}
+.decks .deck {
+  width: 250px; /* Ширина карты - можете изменить */
+  height: auto; /* Высота карты будет автоматически вычисляться, чтобы сохранить пропорции */
+  cursor: pointer;
+}
+.decks #deck1 {
+  border: 5px solid #eedc5e;
+}
+.decks #deck2 {
+  border: 5px solid #f39f4a;
+}
+.decks #deck3 {
+  border: 5px solid #5da545;
+}
+.decks #deck4 {
+  border: 5px solid #d84779;
+}
+.decks #deck5 {
+  border: 5px solid #b3b3b3;
+}
+.decks #deck6 {
+  border: 5px solid #75c8c4;
+}
+
+/* Хедер */
+.aside {
+  position: relative;
+  display: flex;
+  z-index: 100;
+  /* Стили для кубика */
+  /* Стили для фішок */
+}
+.aside .dices__wrapper {
+  margin-top: 20px;
+  position: absolute;
+  width: 160px;
+  margin-left: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.aside .dice {
+  width: 80px;
+  float: left;
+  background-color: #cf8796;
+  border: 3px solid white;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+.aside .dice-roll {
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 80px;
+  float: left;
+  background-color: white;
+  border: 3px solid #cf8796;
+  color: #cf8796;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  padding: 14px;
+  text-align: center;
+  border-radius: 50%;
+}
+.aside .players {
+  margin-top: 25px;
+}
+.aside .players .player {
+  border-radius: 50%;
+  padding: 3px;
+  width: 45px;
+  height: 45px;
+  border: 3px solid #cf8796;
+  background-color: white;
+  position: absolute;
+  z-index: 200;
+  cursor: pointer;
+}
+.aside .players #avat1 {
+  left: 80px;
+  fill: #d70a12;
+}
+.aside .players #avat2 {
+  left: 130px;
+  fill: #e66533;
+}
+.aside .players #avat3 {
+  left: 180px;
+  fill: #f3b40d;
+}
+.aside .players #avat4 {
+  left: 230px;
+  fill: #199333;
+}
+.aside .players #avat5 {
+  left: 280px;
+  fill: #3178b5;
+}
+.aside .players #avat6 {
+  left: 330px;
+  fill: #d94f84;
+}
+.aside .players #avat7 {
+  left: 380px;
+  fill: #882477;
+}
+.aside .players .avatar {
+  width: 45px;
+  height: 45px;
+}/*# sourceMappingURL=main.css.map */
